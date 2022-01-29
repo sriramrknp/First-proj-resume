@@ -377,3 +377,12 @@ body{
 .github:hover {
     transform: scale(1.4);
 }
+
+/* copy right */
+.copyright {
+    margin: 25px 25px;
+    font-family: 'Comforter', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 90%;
+}
