@@ -277,6 +277,8 @@ body{
 
 /* connect me style. */
 .connect {
+    margin: 30px;
+    padding-top: 20px;
     font-family: 'Comforter', cursive;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -293,6 +295,7 @@ body{
 
 /* div of social site links */
 .links{
+    margin-bottom: 20px;
     display: flex;
     background: rgb(194, 176, 128);
     border-radius: 8px;
