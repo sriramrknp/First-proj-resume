@@ -15,7 +15,7 @@ body{
 
 /* Head image style. */
 .top-img {
-    border-radius: 10px;
+    border-radius: 1px;
     float: left;
     height: 450px;
     width: 100%;
