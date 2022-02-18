@@ -17,6 +17,10 @@
 }
 
 .home-div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 100px;
     text-align:right;
     background: rgb(194, 176, 128);
