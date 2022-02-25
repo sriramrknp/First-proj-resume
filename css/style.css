@@ -24,6 +24,7 @@ body{
 
 /* Navigation bar */
 nav {
+    overflow: visible;
     box-sizing: border-box;
     overflow: hidden;
     position: fixed;
@@ -53,7 +54,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 5px;
 }
 
 /* Navigation bar links. */
@@ -64,6 +65,7 @@ nav ul li a {
     border: 2px solid orange;
     border-radius: 10px;
     color: orange;
+    font-size: 30px;
 }
 
 /* Hover style. */
@@ -367,3 +369,56 @@ nav ul li a {
     font-family: 'Playfair Display', serif;
     font-size: 90%;
 }
+
+ /* .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo-label {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+} */
